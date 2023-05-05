@@ -13,7 +13,7 @@ interface FormValues {
     password: string;
     confirmPassword: string;
     role: string;
-    phoneNumber: Number;
+    phoneNumber: number;
 }
 const validationSchema = Yup.object().shape({
     fullName: Yup.string().required("Full Name Required"),
